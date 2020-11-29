@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nowa karta</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg">
+    <img class="bg-img" id="bg-img" alt="">
+  </div>
+  <div class="content">
+    <button class="reload-btn" id="reload-btn">
+      <ion-icon name="refresh-outline"></ion-icon>
+    </button>
+    <div class="data">
+      <p id="clock" class="clock"></p>
+      <p id="temp" class="temp"> </p>
+    </div>
+    <div class="links">
+      <a target="_blank" href="https://mail.google.com" class="link">
+        <ion-icon name="mail-outline" ></ion-icon>
+      </a>
+      <a target="_blank" href="https://twitter.com" class="link">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+      <a target="_blank" href="https://facebook.com" class="link">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a target="_blank" href="https://messenger.com" class="link">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+      </a>
+    </div>
+    <form class="google-form" id="google-form">
+      <input type="text" autofocus id="google-input" class="google-input" placeholder="Czego szukasz?">
+    </form>
+    <div class="links">
+    </div>
+  </div>
+
+  <script src="js/shortcuts.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/searchForm.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/bg.js"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>
